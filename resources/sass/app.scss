@@ -1,0 +1,21 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+nav>div:first-child {
+    display: none;
+}
+
+
+nav>div:last-child a {
+    text-decoration: none;
+}
+
+nav svg {
+    height: 20px;
+}
