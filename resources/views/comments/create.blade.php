@@ -87,7 +87,7 @@
         })
 
         function editComment() {
-            const commentContainer = $('.comment__content')
+            const commentContainer = $('.comment__content');
             commentContainer.click(function(e) {
                 if (e.target.classList.contains('comment__btn-edit')) {
                     const id = e.target.dataset.id
